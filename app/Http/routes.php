@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('welcome', function () {            //ejemplo de ruta
+    return "hola mundo";
+});
+
+
+
+
