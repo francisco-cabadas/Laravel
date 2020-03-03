@@ -4,7 +4,6 @@
     <list default="true" id="f235d8bc-9cac-41ac-a916-5f212e3a1e82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583236073665</updated>
       <workItem from="1583236077176" duration="393000" />
-      <workItem from="1583238604714" duration="1265000" />
+      <workItem from="1583238604714" duration="4131000" />
+      <workItem from="1583259274281" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit prueba">
       <created>1583238661867</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583238661867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="primera Route">
+      <created>1583239993868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583239993868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,13 +161,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit prueba" />
+    <MESSAGE value="primera Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera Route" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583238661408">
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583239993471">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583238661408" />
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583239993471" />
+    <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1583257015212">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="184" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1583257015212" />
     <state x="554" y="345" width="356" height="169" key="Github.CreateGistDialog" timestamp="1583236491145">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -177,9 +189,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="92" y="92" width="1256" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1583239974333" />
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583239540484">
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1583254602671">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1583239540484" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1583254602671" />
   </component>
 </project>

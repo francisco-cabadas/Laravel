@@ -16,9 +16,40 @@ Route::get('/', function () {
 });
 
 
-Route::get('welcome', function () {            //ejemplo de ruta
+Route::get('welcome', function () {                   //ejemplo de ruta
     return "hola mundo";
 });
+
+
+Route::any('welcome', function () {                  //cualquien peticion http(post, get, delete, etc) la procesa con any
+    $url = url("welcome");
+    return "estamos en $url";
+
+});
+
+//Route de forma individual para distintas peticiones Http
+
+/*Route::get('welcome', function () {
+
+
+    return "Hello World!";
+
+});
+
+Route::post('welcome', function () {
+
+
+    return "Hello World!";
+
+});
+
+Route::match(['get', 'post'], 'match', function () {
+
+
+    return "Matches GET and POST";
+
+});*/
+
 
 
 
