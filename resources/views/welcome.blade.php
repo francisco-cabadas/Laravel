@@ -39,7 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel proyecto</div>
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5.1</div>
             </div>
         </div>
     </body>
