@@ -46,6 +46,17 @@ Route::any('welcome', function () {                  //cualquien peticion http(p
 
 });
 
+Route::get('perfil/{perfil?}', ['as' => 'perfil' , function ($perfil = null) {   //creando enlaces del directorio
+    $url = route("perfil", ['perfil' => $perfil]);
+    if ($perfil == null) {
+        return "no se seleccinó un perfil en concreto";
+    }
+    return "hola usuario $perfil y el directorio completo es $url";
+}]);
+
+
+
+
 
 
 
