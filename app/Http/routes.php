@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::pattern('hex', '[a-z0-9]+' );           //declara que solo podrá tener en la url caracteres hexadecimales abajo vemos como se usa
+/*Route::pattern('hex', '[a-z0-9]+' );           //declara que solo podrá tener en la url caracteres hexadecimales abajo vemos como se usa
 
 Route::get('welcome/{hex?}', function ($hex = null) {                   //ejemplo de ruta (no funciona por que hay otro metodo igual con any
     return "hola mundo";
@@ -55,35 +55,27 @@ Route::get('perfil/{perfil?}', ['as' => 'perfil' , function ($perfil = null) {  
 }]);
 
 
+//grupos de Routes
+Route::group(['prefix' => 'user'], function () {          //se utiliza para tener mejor estructurado el código
 
+    Route::get('/', function ()
+    {
 
+        return '/user';
+    });
 
+    Route::get('profile', function () {
 
-
-//Route de forma individual para distintas peticiones Http
-
-/*Route::get('welcome', function () {
-
-
-    return "Hello World!";
-
+        return 'user/profile';
+    });
 });
 
-Route::post('welcome', function () {
+*/
+//----------------------------------comienza proyecto--------------------------------------------------------------------------
 
+Route::get('post/{id}', [
 
-    return "Hello World!";
+    'uses' => 'PostController@show'
 
-});
-
-Route::match(['get', 'post'], 'match', function () {
-
-
-    return "Matches GET and POST";
-
-});*/
-
-
-
-
+]);
 
