@@ -140,7 +140,8 @@
       <workItem from="1583259274281" duration="2469000" />
       <workItem from="1583327016252" duration="4055000" />
       <workItem from="1583429172608" duration="1757000" />
-      <workItem from="1583581976775" duration="3007000" />
+      <workItem from="1583581976775" duration="3209000" />
+      <workItem from="1583691411535" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit prueba">
       <created>1583238661867</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583434614593</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="primeros pasos con controller">
+      <created>1583589060599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589060599</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,13 +197,14 @@
     <MESSAGE value="añadido route any y url se directorio" />
     <MESSAGE value="añadiendo mas cosas del Route" />
     <MESSAGE value="añadiendo mas cosas del Route 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadiendo mas cosas del Route 2" />
+    <MESSAGE value="primeros pasos con controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeros pasos con controller" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583434614121">
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583589060143">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583434614121" />
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583589060143" />
     <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1583257015212">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

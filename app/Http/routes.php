@@ -79,3 +79,7 @@ Route::get('post/{id}', [
 
 ]);
 
+Route::post('post/store', ['middleware' => 'auth', function () {    //array de middleware  ['middleware' => ['auth', 'age']
+
+}]);
+
