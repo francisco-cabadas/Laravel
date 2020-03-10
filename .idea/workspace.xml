@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f235d8bc-9cac-41ac-a916-5f212e3a1e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,13 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="francisco-cabadas" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Laravel" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\FRAN\Laravel5\proyectos\Laravel\.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -139,17 +148,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:MySQL - @localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@2d06cce1" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -173,7 +172,8 @@
       <workItem from="1583429172608" duration="1757000" />
       <workItem from="1583581976775" duration="3209000" />
       <workItem from="1583691411535" duration="3974000" />
-      <workItem from="1583771433797" duration="4961000" />
+      <workItem from="1583771433797" duration="4973000" />
+      <workItem from="1583834527653" duration="3839000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit prueba">
       <created>1583238661867</created>
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583694955739</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="añadiendo migrations">
+      <created>1583782599364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583782599364</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,17 +245,18 @@
     <MESSAGE value="añadiendo mas cosas del Route 2" />
     <MESSAGE value="primeros pasos con controller" />
     <MESSAGE value="añadiendo use Validator" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadiendo use Validator" />
+    <MESSAGE value="añadiendo migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadiendo migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583780363660">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1583780363660" />
-    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583694955287">
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583782598948">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583694955287" />
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583782598948" />
     <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1583257015212">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

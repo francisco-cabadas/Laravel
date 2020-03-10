@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
+*/
 
 /*Route::pattern('hex', '[a-z0-9]+' );           //declara que solo podrá tener en la url caracteres hexadecimales abajo vemos como se usa
 
@@ -78,6 +79,8 @@ Route::get('post/{id}', [
     'uses' => 'PostController@show'
 
 ]);
+
+Route::get('/' , 'PostController@index');  // mostrará en index del PostContoller
 
 Route::post('post/store', ['middleware' => 'auth', function () {    //array de middleware  ['middleware' => ['auth', 'age']
 
