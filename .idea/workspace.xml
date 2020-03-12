@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f235d8bc-9cac-41ac-a916-5f212e3a1e82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,8 @@
       <workItem from="1583581976775" duration="3209000" />
       <workItem from="1583691411535" duration="3974000" />
       <workItem from="1583771433797" duration="4973000" />
-      <workItem from="1583834527653" duration="3839000" />
+      <workItem from="1583834527653" duration="4459000" />
+      <workItem from="1584029196637" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit prueba">
       <created>1583238661867</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583782599364</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="añadiendo acceso a base de datos">
+      <created>1583838960572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583838960572</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,17 +252,18 @@
     <MESSAGE value="primeros pasos con controller" />
     <MESSAGE value="añadiendo use Validator" />
     <MESSAGE value="añadiendo migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadiendo migrations" />
+    <MESSAGE value="añadiendo acceso a base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadiendo acceso a base de datos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583780363660">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1583780363660" />
-    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583782598948">
+    <state x="345" y="24" key="CommitChangelistDialog2" timestamp="1583838960164">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583782598948" />
+    <state x="345" y="24" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1583838960164" />
     <state x="500" y="184" key="FileChooserDialogImpl" timestamp="1583257015212">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

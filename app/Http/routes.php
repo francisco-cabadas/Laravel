@@ -80,9 +80,14 @@ Route::get('post/{id}', [
 
 ]);
 
-Route::get('/' , 'PostController@index');  // mostrará en index del PostContoller
+Route::post('post/store', [                             // para crear pero necesitamos loggin
+    'middleware' => 'auth',
+    'before' => 'csrf',
+    'uses' => 'PostController@store'
 
-Route::post('post/store', ['middleware' => 'auth', function () {    //array de middleware  ['middleware' => ['auth', 'age']
+]);
 
-}]);
+Route::get('post/delete/{id}', [                           //para borrar un id
+    'uses' => 'PostController@destroy'
+]);
 
